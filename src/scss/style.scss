@@ -1,0 +1,184 @@
+@import "./font-famliy.scss";
+@import "./mixin.scss";
+
+body{
+    background-image: url("../image/main-bg.jpg");
+}
+.main-block{
+  
+    padding: 50px 60px;
+  
+   
+}
+
+.content-section{
+    text-align: right;
+
+    h1{
+       @include mainTitle;
+       padding: 0 90px;
+
+       b{
+           font-weight: 700
+       }
+    }
+
+    h3{
+       @include heading;
+      
+    }
+
+    p{
+       @include textStyle;
+    }
+
+    .coin-img-section{
+        
+        margin-top: 25px;
+        height: 284px;
+        position: relative;
+        width: 491px;
+        float: right;
+        img{
+            position: absolute;
+        }
+        .coin1-img{
+           
+            top: 0;
+            width: 125px;
+            left: 135px;
+        }
+        .coin2-img{
+            top: 160px;
+            width: 125px;
+            left: 70px;
+        }
+        .coin3-img{
+            width: 80px;
+            top: 97px;
+            right: 110px;
+        }
+    }
+}
+
+
+.post-block{
+     max-width: 1366px;
+     margin: auto;
+     position: relative;
+     .girl-img {
+    
+       
+        img{
+            position: absolute;
+            bottom: -49px;
+            left: -61px;
+            z-index: 1;
+            width: 676px;
+        }
+     }
+.graph-section{
+    text-align: center;
+    margin-bottom: 40px;
+    img{
+        
+        width: 385px;
+
+    }
+}
+.sub-content-section{
+    padding: 0 89px;
+    text-align: center;
+    h3{
+
+    }
+    p{
+
+    }
+}
+.bg-img-section{
+    img{
+        position:absolute;
+    }
+
+    .left-bottom-arrow-img{
+    
+        bottom: 89px;
+        left: -105px;
+        width: 767px;
+        z-index: 0;
+        opacity: 0.4;
+    
+    }
+    .left-spin-line{
+        
+        top: 454px;
+        width: 33px;
+        left: -22px;
+    
+    }
+    .website-img{
+          top: 23px;
+    width: 27px;
+   }
+   .circle-img1{
+   
+    top: 143px;
+    width: 16px;
+    left: 71px;
+   }
+   .circle-spin-line{
+    
+    width: 187px;
+    left: 481px;
+    top: 430px;
+
+
+
+   }
+   .circle-img2{
+    top: 351px;
+    left: 502px;
+    width: 16px;
+   }
+   .circle-img3{
+    right: 0;
+    width: 16px;
+    bottom: 580px;
+
+   }
+   .right-spin-line{
+    top: 355px;
+    width: 187px;
+    right: -60px;
+   }
+ }
+
+}
+
+
+
+.coin1-img {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    animation: bounce 4.5s ease-in-out;
+    
+  }
+  
+  
+  
+  @keyframes bounce {
+    25% {
+      
+    }
+  
+    50% {
+         top: 50px;
+    }
+  
+    100% {
+     
+    }
+  }
+  

@@ -1,0 +1,25 @@
+@mixin mainTitle{
+    font-family: $mainTitle;
+    font-size: 80px;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: 300;
+}
+
+@mixin  heading {
+    font-family: $headingText;
+    font-size: 28px;
+    display: inline-block;
+    background-color: #5b72e3;
+    padding: 15px 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+@mixin textStyle{
+    font-family: $headingText;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+}
