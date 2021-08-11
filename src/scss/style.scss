@@ -75,27 +75,22 @@ body{
             left: -61px;
             z-index: 1;
             width: 676px;
+            transition: 0.5s all;
         }
      }
 .graph-section{
     text-align: center;
     margin-bottom: 40px;
     img{
-        
         width: 385px;
-
-    }
+   }
 }
 .sub-content-section{
     padding: 0 89px;
     text-align: center;
-    h3{
-
-    }
-    p{
-
-    }
+  
 }
+
 .bg-img-section{
     img{
         position:absolute;
@@ -157,28 +152,16 @@ body{
 }
 
 
-
-.coin1-img {
-    position: absolute;
-    top: 0;
-    z-index: 2;
-    animation: bounce 4.5s ease-in-out;
-    
+@keyframes fadeInOut {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
   }
+  .main-img {
+      opacity:1;  
+      animation: fadeInOut 4s ease-in-out infinite;
+      animation-duration: 5s;
+  } 
   
   
-  
-  @keyframes bounce {
-    25% {
-      
-    }
-  
-    50% {
-         top: 50px;
-    }
-  
-    100% {
-     
-    }
-  }
   

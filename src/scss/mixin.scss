@@ -8,7 +8,7 @@
 }
 
 @mixin  heading {
-    font-family: $headingText;
+    font-family: $heading;
     font-size: 28px;
     display: inline-block;
     background-color: #5b72e3;
@@ -18,7 +18,7 @@
 }
 
 @mixin textStyle{
-    font-family: $headingText;
+    font-family: $textFont;
     font-size: 24px;
     text-align: center;
     font-weight: 700;

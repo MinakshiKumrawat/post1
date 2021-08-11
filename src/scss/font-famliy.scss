@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+@font-face {
+    font-family: 'MYRIADPROREGULAR';
+    src: url('./fonts/MYRIADPROREGULAR.eot');
+    src: url('./fonts/MYRIADPROREGULAR.eot') format('embedded-opentype'),
+         url('./fonts/MYRIADPROREGULAR.woff2') format('woff2'),
+         url('./fonts/MYRIADPROREGULAR.woff') format('woff'),
+         url('./fonts/MYRIADPROREGULAR.ttf') format('truetype'),
+         url('./fonts/MYRIADPROREGULAR.svg#MYRIADPROREGULAR') format('svg');
+}
 
 $mainTitle: 'Playfair Display', serif;
-$headingText:'Oswald', sans-serif;
+$heading:'Oswald', sans-serif;
+$textFont:'MYRIADPROREGULAR';

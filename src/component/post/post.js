@@ -1,18 +1,47 @@
+import React, { useEffect, useState } from 'react';
+
 const Post = () => {
+ 
+
+  // const [fade, setFade] = useState(false);
+
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //    let mainImg = document.getElementById("main-img");
+     
+  //    if(!fade){
+  //     mainImg.style.opacity = 0;
+  //     setFade(true);
+  //     console.log(fade);
+  //    }
+  //    else{
+  //     mainImg.style.opacity = 1;
+  //     setFade(false);
+  //     console.log(fade);
+  //    }
+    
+   
+  //   }, 1000);
+  //   return () => clearInterval(interval);
+  // }, []);
+
+
+  
+
+
     return(
         <section className="post-block">
                 <div className="row">
                   <div className="col-md-6">
                      <div className="girl-img">
-                       <img src="./images/girl-img.png" alt="img" />
+                       <img src="./images/girl-img.png" alt="img"  className="main-img"/>
                      </div>
                   </div>
                   <div className="col-md-6">
                       <div className="content-section">
-                          <h1>invest in <br />your<br /><b>future</b></h1>
+                          <h1>invest in<br />your<br /><b>future</b></h1>
                           <div className="coin-img-section">
                              <img src="./images/coin1-img.png" alt="img" className="coin1-img" />
-                             <div className="shadow"></div>
                              <img src="./images/coin3-img.png" alt="img" className="coin3-img" />  
                              <img src="./images/coin2-img.png" alt="img" className="coin2-img" />
                           </div>
